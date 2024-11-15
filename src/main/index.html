@@ -8,19 +8,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
     <header>
         <nav>
             <a href="index.html">Home</a>
-            <a href="projects.html">Projects</a>
+            <a href="projects.html">Gallery</a>
             <a href="other.html">Other</a>
         </nav>
     </header>
 
     <main>
-        <h1>phyrobyte</h1>
+        <h1 id="animatedHeadline">phyrobyte</h1>
         <p>Hello! I'm phyrobyte, lead developer of Trajectory Sandbox. Here in this site you can find all of my past projects, social links, and things I am currently working on</p>
     </main>
 
@@ -46,14 +47,17 @@
     </div>
 
     <section class="gallery">
-        <img src="src\assets\Index_img_gallery\featured1.png" alt="Description of Image 1">
-        <img src="src\assets\Index_img_gallery\featured2.png" alt="Description of Image 2">
-        <img src="src\assets\Index_img_gallery\featured3.png" alt="Description of Image 3">
+        <img src="../assets/images/featured1.png" alt="Featured Image 1">
+        <img src="../assets/images/featured2.png" alt="Featured Image 2">
+        <img src="../assets/images/featured3.png" alt="Featured Image 3">
+        <img src="../assets/images/featured4.png" alt="Featured Image 3">
     </section>
 
     <footer>
         <p>&copy; 2024 phyrobyte (The "p" in phyrobyte is intentionally lowercase). All rights reserved.</p>
     </footer>
+
+    <button id="backToTop" style="display: none; position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; border: none; background-color: #333; color: #fff; border-radius: 5px; cursor: pointer;">Top</button>
 
 </body>
 </html>
